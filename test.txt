@@ -1,0 +1,387 @@
+1 times
+2 times
+3 times
+1 times
+2 times
+3 times
+1 times
+2 times
+3 times
+Mandelbrot pthread Elapsed Time: 2.980046 Sec.
+1 times
+1 times
+2 times
+3 times
+1 times
+2 times
+3 times
+MB CUDA static fusion is running
+Mandelbrot CUDA static fusion Elapsed Time: 0.545464 Sec.
+1 times
+MB CUDA static fusion is running
+Mandelbrot CUDA static fusion Elapsed Time: 0.548997 Sec.
+2 times
+MB CUDA static fusion is running
+Mandelbrot CUDA static fusion Elapsed Time: 0.545154 Sec.
+3 times
+Mandelbrot pthread Elapsed Time: 2.973439 Sec.
+1 times
+Mandelbrot pthread Elapsed Time: 2.902063 Sec.
+2 times
+Mandelbrot pthread Elapsed Time: 2.918998 Sec.
+3 times
+1 times
+2 times
+3 times
+1 times
+2 times
+3 times
+1 times
+2 times
+3 times
+Convolution pthread elapsed Time: 2.997100 Sec.
+CPU program running
+verifying
+verify successfully
+1 times
+Convolution pthread elapsed Time: 2.966398 Sec.
+CPU program running
+verifying
+verify successfully
+2 times
+Convolution pthread elapsed Time: 2.979790 Sec.
+CPU program running
+verifying
+verify successfully
+3 times
+1 times
+2 times
+3 times
+DCT CUDA baseline inputs are generating
+DCT CUDA baseline is running
+DCT CUDA baseline Elapsed Time: 0.144283 Sec.
+CPU program running
+Verifying
+verify successfully
+1 times
+DCT CUDA baseline inputs are generating
+DCT CUDA baseline is running
+DCT CUDA baseline Elapsed Time: 0.143490 Sec.
+CPU program running
+Verifying
+verify successfully
+2 times
+DCT CUDA baseline inputs are generating
+DCT CUDA baseline is running
+DCT CUDA baseline Elapsed Time: 0.145918 Sec.
+CPU program running
+Verifying
+verify successfully
+3 times
+DCT inputs are generating
+DCT CUDA static fusion is running
+DCT CUDA static fusion Elapsed Time: 0.012914 Sec.
+CPU program running
+verifying
+Verify Successfully
+1 times
+DCT inputs are generating
+DCT CUDA static fusion is running
+DCT CUDA static fusion Elapsed Time: 0.012928 Sec.
+CPU program running
+verifying
+Verify Successfully
+2 times
+DCT inputs are generating
+DCT CUDA static fusion is running
+DCT CUDA static fusion Elapsed Time: 0.012927 Sec.
+CPU program running
+verifying
+Verify Successfully
+3 times
+The DCT pthread Elapsed Time: 1.560369 Sec.
+CPU program running
+verifying
+verify successfully
+1 times
+The DCT pthread Elapsed Time: 1.542522 Sec.
+CPU program running
+verifying
+verify successfully
+2 times
+The DCT pthread Elapsed Time: 1.453714 Sec.
+CPU program running
+verifying
+verify successfully
+3 times
+1 times
+2 times
+3 times
+Filterbank inputs are generating
+Filterbank CUDA baseline is running
+Filterbank CUDA baseline Elapsed Time: 0.170491 Sec.
+CPU program running
+Verify
+Verify successfully
+1 times
+1 times
+2 times
+3 times
+1 times
+2 times
+3 times
+MB CUDA static fusion is running
+Mandelbrot CUDA static fusion Elapsed Time: 0.544542 Sec.
+1 times
+MB CUDA static fusion is running
+Mandelbrot CUDA static fusion Elapsed Time: 0.549231 Sec.
+2 times
+MB CUDA static fusion is running
+Mandelbrot CUDA static fusion Elapsed Time: 0.542286 Sec.
+3 times
+Mandelbrot pthread Elapsed Time: 2.951696 Sec.
+1 times
+Mandelbrot pthread Elapsed Time: 2.914976 Sec.
+2 times
+Mandelbrot pthread Elapsed Time: 2.893793 Sec.
+3 times
+1 times
+2 times
+3 times
+1 times
+2 times
+3 times
+1 times
+2 times
+3 times
+Convolution pthread elapsed Time: 3.027307 Sec.
+CPU program running
+verifying
+verify successfully
+1 times
+Convolution pthread elapsed Time: 3.009874 Sec.
+CPU program running
+verifying
+verify successfully
+2 times
+Convolution pthread elapsed Time: 3.075452 Sec.
+CPU program running
+verifying
+verify successfully
+3 times
+1 times
+2 times
+3 times
+DCT CUDA baseline inputs are generating
+DCT CUDA baseline is running
+DCT CUDA baseline Elapsed Time: 0.147565 Sec.
+CPU program running
+Verifying
+verify successfully
+1 times
+DCT CUDA baseline inputs are generating
+DCT CUDA baseline is running
+DCT CUDA baseline Elapsed Time: 0.144972 Sec.
+CPU program running
+Verifying
+verify successfully
+2 times
+DCT CUDA baseline inputs are generating
+DCT CUDA baseline is running
+DCT CUDA baseline Elapsed Time: 0.146584 Sec.
+CPU program running
+Verifying
+verify successfully
+3 times
+DCT inputs are generating
+DCT CUDA static fusion is running
+DCT CUDA static fusion Elapsed Time: 0.011882 Sec.
+CPU program running
+verifying
+Verify Successfully
+1 times
+DCT inputs are generating
+DCT CUDA static fusion is running
+DCT CUDA static fusion Elapsed Time: 0.012967 Sec.
+CPU program running
+verifying
+Verify Successfully
+2 times
+DCT inputs are generating
+DCT CUDA static fusion is running
+DCT CUDA static fusion Elapsed Time: 0.012956 Sec.
+CPU program running
+verifying
+Verify Successfully
+3 times
+The DCT pthread Elapsed Time: 1.478785 Sec.
+CPU program running
+verifying
+verify successfully
+1 times
+The DCT pthread Elapsed Time: 1.498520 Sec.
+CPU program running
+verifying
+verify successfully
+2 times
+The DCT pthread Elapsed Time: 1.535525 Sec.
+CPU program running
+verifying
+verify successfully
+3 times
+Filterbank Pagoda inputs are generating
+Filterbank Pagoda is running
+Filterbank pagoda Elapsed Time: 0.121957 Sec.
+CPU program running
+Verify
+Verify successfully
+1 times
+Filterbank Pagoda inputs are generating
+Filterbank Pagoda is running
+Filterbank pagoda Elapsed Time: 0.124608 Sec.
+CPU program running
+Verify
+Verify successfully
+2 times
+Filterbank Pagoda inputs are generating
+Filterbank Pagoda is running
+Filterbank pagoda Elapsed Time: 0.123002 Sec.
+CPU program running
+Verify
+Verify successfully
+3 times
+Filterbank inputs are generating
+Filterbank CUDA baseline is running
+Filterbank CUDA baseline Elapsed Time: 0.172118 Sec.
+CPU program running
+Verify
+Verify successfully
+1 times
+Filterbank inputs are generating
+Filterbank CUDA baseline is running
+Filterbank CUDA baseline Elapsed Time: 0.173669 Sec.
+CPU program running
+Verify
+Verify successfully
+2 times
+Filterbank inputs are generating
+Filterbank CUDA baseline is running
+Filterbank CUDA baseline Elapsed Time: 0.172361 Sec.
+CPU program running
+Verify
+Verify successfully
+3 times
+Filterbank CUDA static fusion inputs are generating
+Filterbank CUDA static fusion is running
+1 times
+Filterbank CUDA static fusion inputs are generating
+Filterbank CUDA static fusion is running
+2 times
+Filterbank CUDA static fusion inputs are generating
+Filterbank CUDA static fusion is running
+3 times
+Filterbank pthread Elapsed Time: 2.362262 Sec.
+CPU program running
+verifying
+verify successfully
+1 times
+Filterbank pthread Elapsed Time: 2.400398 Sec.
+CPU program running
+verifying
+verify successfully
+2 times
+Filterbank pthread Elapsed Time: 2.356694 Sec.
+CPU program running
+verifying
+verify successfully
+3 times
+Inputs are generating
+GPU program is running
+Beamformer pagoda elapsed Time: 0.358454 sec.
+1 times
+Inputs are generating
+GPU program is running
+Beamformer pagoda elapsed Time: 0.349485 sec.
+2 times
+Inputs are generating
+GPU program is running
+Beamformer pagoda elapsed Time: 0.369764 sec.
+3 times
+Inputs are generted
+GPU program is running
+Beamformer CUDA baseline elapsed Time: 1.332713 sec.
+1 times
+Inputs are generted
+GPU program is running
+Beamformer CUDA baseline elapsed Time: 1.332946 sec.
+2 times
+Inputs are generted
+GPU program is running
+Beamformer CUDA baseline elapsed Time: 1.333715 sec.
+3 times
+Inputs are generating
+GPU program is running
+Beamformer CUDA static fusion elapsed Time: 1.057246 sec.
+1 times
+Inputs are generating
+GPU program is running
+Beamformer CUDA static fusion elapsed Time: 1.060490 sec.
+2 times
+Inputs are generating
+GPU program is running
+Beamformer CUDA static fusion elapsed Time: 1.061753 sec.
+3 times
+Beamformer pthread Elapsed Time: 10.382014 Sec.
+1 times
+Beamformer pthread Elapsed Time: 10.357121 Sec.
+2 times
+Beamformer pthread Elapsed Time: 10.329125 Sec.
+3 times
+MM Pagoda inputs are generating
+MM Pagoda is running
+The Pagoda matrixMul Elapsed Time: 0.898453 Sec.
+cpu program running
+Verifying
+Verify Successfully
+Reset successful
+1 times
+MM Pagoda inputs are generating
+MM Pagoda is running
+The Pagoda matrixMul Elapsed Time: 0.897686 Sec.
+cpu program running
+Verifying
+Verify Successfully
+Reset successful
+2 times
+MM Pagoda inputs are generating
+MM Pagoda is running
+The Pagoda matrixMul Elapsed Time: 0.897617 Sec.
+cpu program running
+Verifying
+Verify Successfully
+Reset successful
+3 times
+MM CUDA baseline inputs are generating
+MM CUDA baseline inputs are running
+The CUDA baseline matrixMul Elapsed Time: 0.875845 Sec.
+Verifying
+Verifying Successfully
+1 times
+MM CUDA baseline inputs are generating
+MM CUDA baseline inputs are running
+The CUDA baseline matrixMul Elapsed Time: 0.876060 Sec.
+Verifying
+Verifying Successfully
+2 times
+MM CUDA baseline inputs are generating
+MM CUDA baseline inputs are running
+The CUDA baseline matrixMul Elapsed Time: 0.875528 Sec.
+Verifying
+Verifying Successfully
+3 times
+MM CUDA static fusion inputs are generating
+MM CUDA static fusion is running
+The CUDA static fusion Elapsed Time: 0.871188 Sec.
+Verify
+Verifying Successfully
+1 times
