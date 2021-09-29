@@ -40,6 +40,8 @@ void runtime_init(){
   	checkCudaErrors(cudaHostAlloc(&ccTaskPool, (BK_NUM*BP_NUM)*sizeof(cTaskStruct), cudaHostAllocDefault));
 
   	// device task buffer
+	// BK_NUM 是 TaskTable 的列数，即 MTB 的个数
+	// BP_NUM 是 TaskTable 的行数
   	checkCudaErrors(cudaMalloc(&ggTaskPool, (BK_NUM*BP_NUM)*sizeof(gTaskStruct)));
   	// totalScheTasks: 
   	checkCudaErrors(cudaHostAlloc(&totalScheTasks, sizeof(int), cudaHostAllocDefault));
@@ -87,6 +89,7 @@ int taskLaunch(int paraN, ...){
 
 			taskId = taskIndex;
 
+			// 处理可变参数
 			for(j = 0; j < paraN; j++){ // set parameters
 	  			int type = va_arg(ap, enum mytypes);
 	    			switch(type){
@@ -112,6 +115,7 @@ int taskLaunch(int paraN, ...){
 	    			} // End switch
 			} // End for paraN
 
+			// 将当前的 TaskTable Entry 从 CPU 复制到 GPU
 			checkCudaErrors(cudaMemcpyAsync(ggTaskPool+taskIndex, ccTaskPool+taskIndex, 
 				sizeof(gTaskStruct), cudaMemcpyHostToDevice, runtime_stream)); 
         		terminate = 0; 
@@ -120,7 +124,7 @@ int taskLaunch(int paraN, ...){
 
      		if(taskIndex == (BK_NUM*BP_NUM) && round_count > 0){
 	  		ccTaskPool[lastEmptyTask].readyId = taskId;
-          		checkCudaErrors(cudaMemcpyAsync((int*)&ggTaskPool[lastEmptyTask].readyId, (int*)&ccTaskPool[lastEmptyTask].readyId,sizeof(int), cudaMemcpyHostToDevice, runtime_stream));
+			checkCudaErrors(cudaMemcpyAsync((int*)&ggTaskPool[lastEmptyTask].readyId, (int*)&ccTaskPool[lastEmptyTask].readyId,sizeof(int), cudaMemcpyHostToDevice, runtime_stream));
 	  		checkCudaErrors(cudaStreamSynchronize(runtime_stream));
 	  		barrierCount ++;
 	  		round_count = 0;
@@ -138,6 +142,7 @@ int taskLaunch(int paraN, ...){
   	return taskId;
 }
 
+// 等待n个task完成
 void waitAll(int num_tasks){
 	*totalScheTasks = 0;
 	ccTaskPool[lastEmptyTask].readyId = taskId;
